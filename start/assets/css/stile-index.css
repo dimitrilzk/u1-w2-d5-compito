@@ -1,0 +1,146 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000 ;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/* HEADER */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header div {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+/* MAIN */
+menu {
+    height: 50vh;
+    background-image: url(/start/assets/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+menu h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+menu .scritte {
+    text-align: left;
+    padding-top: 7%;
+    padding-left: 26%;
+    padding-right: 22%;
+    padding-bottom: 8%;
+    text-shadow: 1px 1px 2px black;
+}
+section .box1 {
+    text-align: center;
+}
+.box1 h2 {
+    font-size: 3.5rem;
+    line-height: 2;
+}
+.box3 div {
+    display: inline-block;
+    text-align: center;
+}
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+.box3 p {
+    text-align: left;
+}
+.box3 .icon {
+    text-align: center;
+    color: #e42424;
+    font-size: 40px;
+}
+.box3 h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+#bgsection {
+    background-color: #0c0633;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#bgsection h2 {
+    font-size: 3rem;
+    line-height: 2;
+}
+#bgsection p {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+/* da sistemare */
+#lastsection {
+    margin-block: 100px;
+}
+.difianco {
+    text-align: center;
+}
+.difianco img {
+    
+}
+/* da sistemare */
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.f1 h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+.f2 h2 {
+    font-size: 2rem;
+    line-height: 1;
+}
+.f2 p {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 2rem;
+    color: #e42424;
+}
+.f3 h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+footer p {
+    padding-top: 50px;
+}
+
+/* RESPONSIVE */
