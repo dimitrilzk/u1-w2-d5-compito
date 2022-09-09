@@ -1,0 +1,121 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000 ;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+/* HEADER */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 20px #d3d3d3;
+}
+header div {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+/* MAIN */
+.box1 {
+    text-align: center;
+}
+.box1 h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box1 p {
+    padding-bottom: 50px;
+}
+main .le2immagini {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.immaginix2 {
+    text-align: center;
+}
+/* TABLE */
+main table {
+    margin-inline: auto;
+}
+table {
+    margin-bottom: 50px;
+}
+caption {
+    font-size: 2rem;
+}
+thead tr {
+    background-color: #66819F;
+    color: #ffffff;
+}
+th, td {
+    padding: 12px 15px;
+    vertical-align: center;
+    text-align: center;
+}
+tbody tr {
+    border-bottom: 1px solid white;
+}
+tbody tr:nth-of-type(1n+1) {
+    background-color: #D3DDE6;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.f1 h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+.f2 h2 {
+    font-size: 2rem;
+    line-height: 1;
+}
+.f2 p {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 2rem;
+    color: #e42424;
+}
+.f3 h2 {
+    font-size: 2rem;
+    line-height: 2;
+}
+footer p {
+    padding-top: 50px;
+}
+
+/* RESPONSIVE */
+

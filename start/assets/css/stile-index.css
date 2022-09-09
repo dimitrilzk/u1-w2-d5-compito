@@ -12,7 +12,6 @@ html, body {
     font-size: 1.5rem;
     line-height: 1.8;
 }
-
 /* HEADER */
 *,
 *::before,
@@ -27,6 +26,7 @@ header {
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: 2px 2px 20px #d3d3d3;
 }
 header div {
     display: inline-block;
@@ -103,6 +103,8 @@ section .box1 {
 /* da sistemare */
 #lastsection {
     margin-block: 100px;
+    display: flex;
+    flex-direction: column;
 }
 .difianco {
     text-align: center;
