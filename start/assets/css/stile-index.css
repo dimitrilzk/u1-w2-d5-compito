@@ -39,7 +39,24 @@ header button {
     background: linear-gradient(90deg,#6cc1e2, #392f7a);
     border: hidden;
 }
+header a {
+    color: gray;
+    text-decoration: none;
+}
 /* MAIN */
+section button {
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
+}
+menu button{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
+    box-shadow: 5px 5px 5px 2px black;
+}
 menu {
     height: 50vh;
     background-image: url(/start/assets/images/banner.jpg);
@@ -153,6 +170,9 @@ footer {
 }
 footer p {
     padding-top: 50px;
+}
+footer .lastp{
+    margin-inline: 300px;
 }
 
 /* RESPONSIVE */

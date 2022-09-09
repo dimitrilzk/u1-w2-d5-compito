@@ -39,6 +39,10 @@ header button {
     background: linear-gradient(90deg,#6cc1e2, #392f7a);
     border: hidden;
 }
+header a {
+    color: gray;
+    text-decoration: none;
+}
 /* MAIN */
 .box1 {
     text-align: center;
@@ -126,6 +130,8 @@ footer {
 footer p {
     padding-top: 50px;
 }
-
+footer .lastp{
+    margin-inline: 300px;
+}
 /* RESPONSIVE */
 
