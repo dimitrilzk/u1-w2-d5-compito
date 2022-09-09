@@ -33,6 +33,12 @@ header div {
     box-sizing: border-box;
     padding-right: 40px;
 }
+header button {
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
+}
 /* MAIN */
 menu {
     height: 50vh;
@@ -42,7 +48,7 @@ menu {
     color: white;
 }
 menu h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
 }
 menu .scritte {
@@ -123,22 +129,26 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.f1 p {
+    margin-top: 0;
+    padding-top: 20px;
+}
 .f1 h2 {
-    font-size: 2rem;
-    line-height: 2;
+    font-size: 1.2rem;
+    line-height: 1;
 }
 .f2 h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     line-height: 1;
 }
 .f2 p {
     display: inline-block;
     padding-top: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #e42424;
 }
 .f3 h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 footer p {

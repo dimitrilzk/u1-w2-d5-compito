@@ -7,6 +7,8 @@
       name="description"
       content="Epicode School: contattaci per i corsi di Front End Developer."
     />
+    <link rel="stylesheet" href="/start/assets/css/reset.css" />
+    <link rel="stylesheet" href="/start/assets/css/stile-contatti.css" />
     <script src="https://kit.fontawesome.com/32ed2019b7.js" crossorigin="anonymous"></script>
     <title>Contatti</title>
   </head>
@@ -29,10 +31,10 @@
           </div>
         </div>
       </header>
+      <div>
+        <h1>Contatti</h1>
+      </div>
       <main>
-        <div>
-          <h1>Contatti</h1>
-        </div>
         <div>
           <form method="POST" action="elabora_form.php">
             <fieldset>
@@ -53,6 +55,7 @@
               />
               <br />
               <input
+                class="scrivimex"
                 type="text"
                 name="messaggio"
                 id="messaggio"
@@ -86,19 +89,19 @@
         </section>
       </main>
       <footer>
-        <div>
-          <h3>Chi siamo</h3>
+        <div class="f1">
+          <h2>Chi siamo</h2>
           <p>
             Epicode School nasce con l'obiettivo di <br />
             rivoluzionare la formazione in ambito <br />
             tech.
           </p>
         </div>
-        <div>
-          <h3>
+        <div class="f2">
+          <h2>
             Ti piace ciò che vedi? <br />
             Condividilo con i tuoi amici!
-          </h3>
+          </h2>
           <div>
             <p>
               <a href="https://www.facebook.com/epicodeitalia/" target="_blank"
@@ -117,8 +120,8 @@
             </p>
           </div>
         </div>
-        <div>
-          <h3>Iscriviti alla nostra newsletter</h3>
+        <div class="f3">
+          <h2>Iscriviti alla nostra newsletter</h2>
           <div>
             <input type="email" />
             <button type="button">Va bene!</button>
