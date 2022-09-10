@@ -31,7 +31,8 @@ html, body {
     font-size: 2.5rem;
 }
 #container button {
-    padding: 10px;
+    padding-block: 10px;
+    padding-inline: 25px;
     color: white;
     background: linear-gradient(90deg,#6cc1e2, #392f7a);
     border: hidden;
@@ -62,13 +63,37 @@ header a {
     text-decoration: none;
 }
 /* MAIN */
-
+#animation:hover {
+    animation-name: specialbutton;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+@keyframes specialbutton {
+    0% {
+        box-shadow: 0px 0px 0px 2px #000000;
+    }
+    20% {
+        box-shadow: 0px 0px 0px 4px #000000dd;
+    }
+    40% {
+        box-shadow: 0px 0px 0px 6px #000000af;
+    }
+    60% {
+        box-shadow: 0px 0px 0px 7px #00000076;
+    }
+    80% {
+        box-shadow: 0px 0px 0px 8px #0000003d;
+    }
+    100% {
+        box-shadow: 0px 0px 0px 10px #00000026;
+    }
+}
 menu button{
     padding: 10px;
     color: white;
     background: linear-gradient(90deg,#6cc1e2, #392f7a);
     border: hidden;
-    box-shadow: 5px 5px 5px 2px black;
 }
 menu {
     height: 50vh;
