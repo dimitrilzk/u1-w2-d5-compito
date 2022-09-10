@@ -9,8 +9,32 @@ html, body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     color: #000 ;
-    font-size: 1.3rem;
-    line-height: 1.8;
+}
+#container h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#container h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+#container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#container a {
+    font-size: 1.2rem;
+}
+#container .icon {
+    font-size: 2.5rem;
+}
+#container button {
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
 }
 /* HEADER */
 *,
@@ -33,12 +57,6 @@ header div {
     box-sizing: border-box;
     padding-right: 40px;
 }
-header button {
-    padding: 10px;
-    color: white;
-    background: linear-gradient(90deg,#6cc1e2, #392f7a);
-    border: hidden;
-}
 header a {
     color: gray;
     text-decoration: none;
@@ -48,6 +66,7 @@ h1 {
     margin-top: 30px;
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 h3 {
     text-align: center;
@@ -79,14 +98,14 @@ input[placeholder] {
 .scrivimex {
     height: 100px;
 }
-fieldset button {
-    padding: 10px;
-    color: white;
-    background: linear-gradient(90deg,#6cc1e2, #392f7a);
-    border: hidden;
+.divform {
+    position: relative;
+}
+.formbutton {
+    position: absolute;
+    left: 35%;
 }
 /* FOOTER */
-
 footer {
     background-color: rgb(238, 238, 238);
     display: flex;
@@ -99,30 +118,30 @@ footer {
 .f1 p {
     margin-top: 0;
     padding-top: 20px;
-}
-.f1 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-}
-.f2 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
+    text-align: left;
 }
 .f2 p {
     display: inline-block;
     padding-top: 20px;
-    font-size: 1.5rem;
     color: #e42424;
 }
-.f3 h2 {
-    font-size: 1.2rem;
-    line-height: 2;
+.f2 i {
+    font-size: 2.5rem;
 }
 footer p {
     padding-top: 50px;
 }
 footer .lastp{
-    margin-inline: 300px;
+    margin-bottom: 20px;
+}
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+}
+#input input {
+    height: 36px;
+    margin-bottom: 0px;
 }
 /* RESPONSIVE */
-

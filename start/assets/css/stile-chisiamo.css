@@ -9,8 +9,32 @@ html, body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     color: #000 ;
-    font-size: 1.5rem;
-    line-height: 1.8;
+}
+#container h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#container h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+#container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#container a {
+    font-size: 1.2rem;
+}
+#container .icon {
+    font-size: 2.5rem;
+}
+#container button {
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
 }
 /* HEADER */
 *,
@@ -33,12 +57,6 @@ header div {
     box-sizing: border-box;
     padding-right: 40px;
 }
-header button {
-    padding: 10px;
-    color: white;
-    background: linear-gradient(90deg,#6cc1e2, #392f7a);
-    border: hidden;
-}
 header a {
     color: gray;
     text-decoration: none;
@@ -48,13 +66,8 @@ header a {
     text-align: center;
 }
 .box1 h1 {
-    font-size: 4rem;
-    line-height: 1.2;
     padding-top: 50px;
-    padding-bottom: 50px;
-}
-.box1 p {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 main .le2immagini {
     display: inline-flex;
@@ -63,20 +76,22 @@ main .le2immagini {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 .immaginix2 {
     text-align: center;
 }
 /* TABLE */
+caption {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
 main table {
     margin-inline: auto;
 }
 table {
     margin-bottom: 50px;
-}
-caption {
-    font-size: 2rem;
 }
 thead tr {
     background-color: #66819F;
@@ -93,9 +108,7 @@ tbody tr {
 tbody tr:nth-of-type(1n+1) {
     background-color: #D3DDE6;
 }
-
 /* FOOTER */
-
 footer {
     background-color: rgb(238, 238, 238);
     display: flex;
@@ -109,29 +122,24 @@ footer {
     margin-top: 0;
     padding-top: 20px;
 }
-.f1 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-}
-.f2 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-}
 .f2 p {
     display: inline-block;
     padding-top: 20px;
-    font-size: 1.5rem;
     color: #e42424;
-}
-.f3 h2 {
-    font-size: 1.2rem;
-    line-height: 2;
 }
 footer p {
     padding-top: 50px;
 }
 footer .lastp{
-    margin-inline: 300px;
+    margin-bottom: 20px;
+}
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+}
+#input input {
+    height: 36px;
 }
 /* RESPONSIVE */
-

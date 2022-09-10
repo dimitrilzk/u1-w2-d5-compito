@@ -9,8 +9,32 @@ html, body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
     color: #000 ;
-    font-size: 1.5rem;
-    line-height: 1.8;
+}
+#container h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#container h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+#container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#container a {
+    font-size: 1.2rem;
+}
+#container .icon {
+    font-size: 2.5rem;
+}
+#container button {
+    padding: 10px;
+    color: white;
+    background: linear-gradient(90deg,#6cc1e2, #392f7a);
+    border: hidden;
 }
 /* HEADER */
 *,
@@ -33,23 +57,12 @@ header div {
     box-sizing: border-box;
     padding-right: 40px;
 }
-header button {
-    padding: 10px;
-    color: white;
-    background: linear-gradient(90deg,#6cc1e2, #392f7a);
-    border: hidden;
-}
 header a {
     color: gray;
     text-decoration: none;
 }
 /* MAIN */
-section button {
-    padding: 10px;
-    color: white;
-    background: linear-gradient(90deg,#6cc1e2, #392f7a);
-    border: hidden;
-}
+
 menu button{
     padding: 10px;
     color: white;
@@ -64,24 +77,20 @@ menu {
     background-size: cover;
     color: white;
 }
-menu h1 {
-    font-size: 3rem;
-    line-height: 1.2;
-}
 menu .scritte {
     text-align: left;
     padding-top: 7%;
     padding-left: 26%;
     padding-right: 22%;
     padding-bottom: 8%;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 section .box1 {
     text-align: center;
 }
 .box1 h2 {
-    font-size: 3.5rem;
-    line-height: 2;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 .box3 div {
     display: inline-block;
@@ -93,7 +102,8 @@ section .box1 {
     justify-content: space-evenly;
     align-items: flex-start;
     padding-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    margin-top: -20px;
 }
 .box3 p {
     text-align: left;
@@ -104,38 +114,40 @@ section .box1 {
     font-size: 40px;
 }
 .box3 h2 {
-    font-size: 2rem;
-    line-height: 1.1;
     margin-bottom: 20px;
 }
 #bgsection {
     background-color: #0c0633;
     color: white;
     text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #bgsection h2 {
-    font-size: 3rem;
-    line-height: 2;
+    font-size: 2.5rem;
 }
 #bgsection p {
-    font-size: 1.2rem;
-    line-height: 2;
+    font-size: 1rem;
 }
-/* da sistemare */
 #lastsection {
     margin-block: 100px;
     display: flex;
     flex-direction: column;
 }
 .difianco {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
 }
-.difianco img {
-    
+.scritte {
+    margin-left: 50px;
 }
-/* da sistemare */
+h2 i {
+    color: #e42424;
+}
 /* FOOTER */
 footer {
     background-color: rgb(238, 238, 238);
@@ -150,29 +162,28 @@ footer {
     margin-top: 0;
     padding-top: 20px;
 }
-.f1 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-}
-.f2 h2 {
-    font-size: 1.2rem;
-    line-height: 1;
-}
 .f2 p {
     display: inline-block;
     padding-top: 20px;
-    font-size: 1.5rem;
     color: #e42424;
 }
-.f3 h2 {
-    font-size: 1.2rem;
-    line-height: 2;
+.f2 i {
+    font-size: 2.5rem;
 }
 footer p {
     padding-top: 50px;
 }
 footer .lastp{
-    margin-inline: 300px;
+    margin-bottom: 20px;
+}
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+}
+#input input {
+    height: 36px;
 }
 
 /* RESPONSIVE */
