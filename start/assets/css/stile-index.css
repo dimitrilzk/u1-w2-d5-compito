@@ -212,18 +212,196 @@ footer .lastp{
 }
 
 /* RESPONSIVE */
-@media screen and (min-width:1920px) {
-    #container {
-        font-size: 130%;
+@media screen and (min-width:1800px) {
+    #container h1 {
+        font-size: 3.2rem;
+        line-height: 1.8;
+    }
+    #container h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    #container p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #container a {
+        font-size: 1.5rem;
+    }
+    #container .icon {
+        font-size: 3rem;
+    }
+    #container button {
+        font-size: 1.3rem;
+        padding-block: 10px;
+        padding-inline: 25px;
+        color: white;
+        background: linear-gradient(90deg,#6cc1e2, #392f7a);
+        border: hidden;
     }
 }
-@media screen and (min-width:1440px) {
-    #container {
-        font-size: 100%;
+@media screen and (min-width:1280px) {
+    #container h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    #container h2 {
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    #container p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #container a {
+        font-size: 1rem;
+    }
+    #container .icon {
+        font-size: 2rem;
+    }
+    #container button {
+        font-size: 1rem;
+        padding-block: 10px;
+        padding-inline: 25px;
+        color: white;
+        background: linear-gradient(90deg,#6cc1e2, #392f7a);
+        border: hidden;
+    }
+    .f2 i {
+        font-size: 1.8rem;
     }
 }
 @media screen and (min-width:1024px) {
-    body {
+    #container h1 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    #container h2 {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    #container p {
         font-size: 1rem;
+        line-height: 1.5;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #container a {
+        font-size: 0.9rem;
+    }
+    #container .icon {
+        font-size: 1.6rem;
+    }
+    #container button {
+        font-size: 0.9rem;
+        padding-block: 10px;
+        padding-inline: 25px;
+        color: white;
+        background: linear-gradient(90deg,#6cc1e2, #392f7a);
+        border: hidden;
+    }
+    .f2 i {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width:768px) {
+    #container h1 {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    #container h2 {
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+    #container p {
+        font-size: 0.8rem;
+        line-height: 1..1;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #container a {
+        font-size: 0.8rem;
+    }
+    #container .icon {
+        font-size: 1.2rem;
+    }
+    #container button {
+        font-size: 0.7rem;
+        padding-block: 10px;
+        padding-inline: 25px;
+        color: white;
+        background: linear-gradient(90deg,#6cc1e2, #392f7a);
+        border: hidden;
+    }
+    .f2 i {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:425px) {
+    #container h1 {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    #container h2 {
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+    #container p {
+        font-size: 0.8rem;
+        line-height: 1..1;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #container a {
+        font-size: 0.8rem;
+    }
+    #container .icon {
+        font-size: 1.2rem;
+    }
+    #container button {
+        font-size: 0.7rem;
+        padding-block: 10px;
+        padding-inline: 25px;
+        color: white;
+        background: linear-gradient(90deg,#6cc1e2, #392f7a);
+        border: hidden;
+    }
+    .f2 i {
+        font-size: 1rem;
+    }
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .difianco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scritte {
+        margin-top: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    menu .scritte {
+        padding-top: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 23%;
+    }
+    .lastp {
+        margin-inline: 20%;
+        margin-top: 20px;
+    }
+    #lastsection {
+        margin-block: 20px;
     }
 }
