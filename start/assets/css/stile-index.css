@@ -102,7 +102,7 @@ menu button{
 }
 menu {
     height: 50vh;
-    background-image: url(/start/assets/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-position: center;
     background-size: cover;
     color: white;
